@@ -1,0 +1,25 @@
+# Data directories
+dataset_train_rgb/
+dataset_test_rgb/
+processed_train_lights/
+processed_test_lights/
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+env/
+venv/ 
+
+#files 
+training_accuracy.png   
+training_loss.png  
+confusionmatrix.png  
+config.py  
+
+run_pipeline.sh
